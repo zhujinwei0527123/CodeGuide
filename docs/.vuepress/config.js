@@ -347,7 +347,7 @@ module.exports = {
                             },
                             {
                                 text: 'Lottery 分布式抽奖系统',
-                                link: '/md/project/lottery/Part-2/第01节：开篇介绍.md'
+                                link: '/md/project/lottery/introduce/Lottery抽奖系统.md'
                             }
                         ]
                     },
@@ -807,10 +807,14 @@ function genBarAssembly() {
             sidebarDepth: 0,
             children: [
                 "idea-plugin/2021-08-27-技术调研，IDEA 插件怎么开发？.md",
+                "idea-plugin/2021-08-29-技术实践，IDEA 插件怎么发布？.md",
                 "idea-plugin/2021-10-18-《IntelliJ IDEA 插件开发》第一节：两种方式创建插件工程.md",
                 "idea-plugin/2021-11-03-《IntelliJ IDEA 插件开发》第二节：配置窗体和侧边栏窗体的使用.md",
                 "idea-plugin/2021-11-18-《IntelliJ IDEA 插件开发》第三节：开发工具栏和Tab页，展示股票行情和K线.md",
                 "idea-plugin/2021-11-24-《IntelliJ IDEA 插件开发》第四节：扩展创建工程向导步骤，开发DDD脚手架.md",
+                "idea-plugin/2021-12-08-《IntelliJ IDEA 插件开发》第五节：IDEA工程右键菜单，自动生成ORM代码.md",
+                "idea-plugin/2021-12-14-《IntelliJ IDEA 插件开发》第六节：以织入代码的方式，自动处理vo2dto.md",
+                "idea-plugin/2021-12-22-《IntelliJ IDEA 插件开发》第7节：通过Inspection机制，为静态代码安全审查.md",
             ]
         }
     ]
@@ -1226,6 +1230,14 @@ function getBarProjectSpringBootMiddleware() {
 function getBarProjectLottery() {
     return [
         {
+            title: "介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "introduce/Lottery抽奖系统.md",
+            ]
+        },
+        {
             title: "第 1 部分 大厂规范",
             collapsable: false,
             sidebarDepth: 0,
@@ -1242,7 +1254,7 @@ function getBarProjectLottery() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "Part-2/第01节：开篇介绍.md",
+                "Part-2/第01节：环境、配置、规范.md",
                 "Part-2/第02节：搭建DDD四层架构.md",
                 "Part-2/第03节：跑通广播模式RPC过程调用.md",
                 "Part-2/第04节：抽奖活动策略库表设计.md",
@@ -1269,8 +1281,7 @@ function getBarProjectLottery() {
             sidebarDepth: 0,
             children: [
                 "Part-3/第01节：UI工程搭建.md",
-                "Part-3/第02节：活动配置和展示.md",
-                "Part-3/第03节：用户抽奖数据展示.md",
+                "Part-3/第02节：活动列表数据展示.md",
             ]
         },
         {
@@ -1278,8 +1289,8 @@ function getBarProjectLottery() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "Part-4/第01节：vue H5 大转盘抽奖.md",
-                "Part-4/第02节：微信公众号回复参与抽奖.md",
+                "Part-4/第01节：搭建微信公众号网关服务.md",
+                "Part-4/第02节：vue H5 大转盘抽奖.md",
             ]
         },
         {
@@ -1288,12 +1299,11 @@ function getBarProjectLottery() {
             sidebarDepth: 0,
             children: [
                 "Part-5/第01节：在云服务器部署 Docker.md",
-                "Part-5/第02节：安装环境 Redis.md",
-                "Part-5/第03节：安装环境 Kafka.md",
-                "Part-5/第04节：安装环境 xxl-job.md",
-                "Part-5/第05节：ELK.md",
-                "Part-5/第06节：全链路监控.md",
-                "Part-5/第07节：Mysql binlog 同步ES.md",
+                "Part-5/第02节：部署环境 Redis.md",
+                "Part-5/第03节：部署环境 Kafka.md",
+                "Part-5/第04节：部署环境 Mysql.md",
+                "Part-5/第05节：部署环境 xxl-job.md",
+                "Part-5/第06节：部署环境 nacos.md",
             ]
         }
     ]

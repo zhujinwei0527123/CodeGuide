@@ -1,6 +1,6 @@
 ---
 title: 第17节：引入xxl-job处理活动状态扫描
-pay: https://codechina.csdn.net/KnowledgePlanet/Lottery/-/wikis/%E7%AC%AC17%E8%8A%82%EF%BC%9A%E5%BC%95%E5%85%A5xxl-job%E5%A4%84%E7%90%86%E6%B4%BB%E5%8A%A8%E7%8A%B6%E6%80%81%E6%89%AB%E6%8F%8F
+pay: https://t.zsxq.com/N3n6uNF
 ---
 
 # 第17节：引入xxl-job处理活动状态扫描
@@ -10,7 +10,7 @@ pay: https://codechina.csdn.net/KnowledgePlanet/Lottery/-/wikis/%E7%AC%AC17%E8%8
 
 >沉淀、分享、成长，让自己和他人都能有所收获！
 
-- 分支：[211106_xfg_xxl-job](https://codechina.csdn.net/KnowledgePlanet/Lottery/-/tree/211106_xfg_xxl-job) 
+- 分支：[211106_xfg_xxl-job](https://gitcode.net/KnowledgePlanet/Lottery/-/tree/211106_xfg_xxl-job) 
 - 描述：引入XXL-JOB，分布式任务调度平台，处理需要使用定时任务解决的场景。
 
 ## 一、开发日志
