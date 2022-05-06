@@ -6,11 +6,26 @@ title: 目录
 
 >你好，我是小傅哥，[《重学Java设计模式》](https://item.jd.com/13218336.html) 图书作者，一线互联网 Java 工程师、架构师。
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?aid=298298421&bvid=BV1FF41137q5&cid=578551972&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 一个着迷于技术又喜欢不断折腾的技术活跃者，从13年毕业到进入互联网，开发过交易、营销类项目，实现过运营、活动类项目，设计过中间件，组织过系统重构，编写过技术专利。不仅从事业务系统的开发工作，也经常做一些字节码插桩类的设计和实现，对架构的设计和落地有丰富的经验。在热衷于Java语言的同时，也喜欢研究中继器、I/O板卡、C#和PHP！
 
 除此之外小傅哥并不只满足于CRUD搬砖，也关心业务、运营、产品、数据、测试、运维等各项知识体系的完善学习，就研发架构设计来讲，更全面的学习会更有利于做出更长远的架构设计。同时完善个人知识体系也更有利于个人成长。
 
 所以你会看到小傅哥在工作之外的深夜、周末、假期会折腾于写文章、编小册、出书籍，并十分热情于对粉丝的交流、提问、解惑。并不深沉且少许逗比的我，希望能给大家带来最接地气的帮助和成长。
+
+---
+
+⏰ **提醒**：在接下来你对本博客的阅读中，如果遇到一些`内容`、`图稿`、`代码`等中的勘误都可以提交Issue或者PR的方式进行反馈，小傅哥会陆续进行完善，感谢您的支持；
+- Issue：[https://github.com/fuzhengwei/CodeGuide/issues](https://github.com/fuzhengwei/CodeGuide/issues)
+- PR：[https://github.com/fuzhengwei/CodeGuide/pulls](https://github.com/fuzhengwei/CodeGuide/pulls) - 你只需要在阅读文章的最下面找到`在 GitHub 上编辑此页`，即可完成克隆和提交PR
+- 本站为公众号往期文章整理的小册，关注`公众号`：[bugstack虫洞栈](https://bugstack.cn/images/personal/qrcode.png) 可以知晓最新推文，避免错过最近正在更新的技术系列文章。
+- 其他：如果你在学习本站内容遇到不能解决的问题，可以联系作者：`小傅哥`，微信：`fustack` - 交个朋友👬🏻，不要错过成为技术同好的机会。
+- 加入星球：[码农会锁](https://t.zsxq.com/jAi2nUf) - 你可以获得本站所有学习内容的**指导**和**帮助**，还可以学习实战项目！`☕️一顿饭钱的支持，突破技术瓶颈` **小妙招**：关注公众号：[bugstack虫洞栈](https://bugstack.cn/images/personal/qrcode.png) 回复：`星球` 可以获取优惠券
+
+<div align="center">
+    <img src="https://bugstack.cn/assets/images/xingqiu-220223.png?raw=true" width="300px">
+</div>
 
 ## 一、本站知识阅览
 
@@ -75,12 +90,21 @@ title: 目录
 
 - 此专栏是一本以开发简化版Spring学习其原理和内核的知识内容，不仅是代码编写实现也更注重内容上的需求分析和方案设计，所以在学习的过程要结合这些内容一起来实践，并调试对应的代码。粉丝伙伴在阅读的过程中，**千万不要害怕在学习的过程中遇到问题，这些都是正常的！** 希望你可以一直坚持把这些内容事必躬亲、亲历亲为的学完，加油！
 
-### 2. Spring Cloud
+### 2. Mybatis 手撸专栏
+
+- 地址：[Mybatis 手撸专栏](https://bugstack.cn/md/spring/develop-mybatis/2022-03-20-%E7%AC%AC1%E7%AB%A0%EF%BC%9A%E5%BC%80%E7%AF%87%E4%BB%8B%E7%BB%8D%EF%BC%8C%E6%89%8B%E5%86%99Mybatis%E8%83%BD%E7%BB%99%E4%BD%A0%E5%B8%A6%E6%9D%A5%E4%BB%80%E4%B9%88%EF%BC%9F.html)
+- 介绍：像我们之前完成[手写 Spring](https://mp.weixin.qq.com/s/g7YdIe_FSrk-WE8nQRO3TA)一样，拆解功能、简化流程、渐进实现，让读者能够更容易的学习到最有价值的知识。
+
+![](https://bugstack.cn/images/article/spring/mybatis-220320-02.png)
+
+在手写的过程中学习 Mybatis 从解析、绑定、反射、缓存，到会话和事务操作，以及如何与 Spring 进行关联注册 Bean 对象，完成整合部分功能逻辑。通过这些内容的拆解实现，读者伙伴就可以非常清楚的知道这些核心功能都是如何实现的了，以后再阅读 Mybatis 源码也就知道从哪开始到哪结束了。
+
+### 3. Spring Cloud
 
 - 地址：[Spring Cloud](https://bugstack.cn/md/spring/spring-cloud/2019-10-31-Spring%20Cloud%E9%9B%B6%E3%80%8A%E6%80%BB%E6%9C%89%E4%B8%80%E5%81%8F%E6%A6%82%E8%BF%B0%E5%91%8A%E8%AF%89%E4%BD%A0SpringCloud%E6%98%AF%E4%BB%80%E4%B9%88%E3%80%8B.html)
 - 介绍：以案例实践的方式讲解 Spring Cloud 中常用的技术内容，包括：Eureka注册中心、熔断、降级、限流、动态刷新配置、消息总线、zuul 网关路由等
 
-### 3. 源码分析
+### 4. 源码分析
 
 - 地址：[源码分析](https://bugstack.cn/md/spring/source-code/2019-12-25-%5B%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%5DMybatis%E6%8E%A5%E5%8F%A3%E6%B2%A1%E6%9C%89%E5%AE%9E%E7%8E%B0%E7%B1%BB%E4%B8%BA%E4%BB%80%E4%B9%88%E5%8F%AF%E4%BB%A5%E6%89%A7%E8%A1%8C%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5.html)
 - 介绍：拆解、分析、实践的方式进行源码学习，包括对 Mybatis 的分析和手写，这部分内容涵盖的非常广泛，可以让你非常清楚一个 ORM 框架是如何开发的以及怎么结合到 Spring 中，同时这部分内容还包括了 Quartz 定时任务全流程的分析，可以帮助你更好的理解任务的分层处理。
@@ -90,6 +114,7 @@ title: 目录
 ### 1. 重学Java设计模式
 
 - 地址：[重学Java设计模式](https://bugstack.cn/md/develop/design-pattern/2020-05-20-%E9%87%8D%E5%AD%A6Java%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8A%E5%AE%9E%E6%88%98%E5%B7%A5%E5%8E%82%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F%E3%80%8B.html)
+- 视频：[https://www.bilibili.com/video/BV1D341177SV](https://www.bilibili.com/video/BV1D341177SV) - `与重学Java设计模式相对应，成体系录制`
 - 介绍：本书是作者小傅哥，基于互联网真实案例编写的Java设计模式实践图书。全书以解决方案为核心，从实际开发业务中抽离出交易、营销、规则引擎、中间件、框架源码等22个真实场景，对设计模式进行全面、彻底的分析。帮助读者灵活地使用各种设计模式，从容应对复杂变化的业务需求，编写出易维护、可扩展的代码结构。
 
 | 序号 | 类型         | 图稿                                                         | 业务场景                                             | 实现要点                                                     |
@@ -154,9 +179,10 @@ title: 目录
 - 地址：[IM Netty 仿PC端微信](https://bugstack.cn/md/project/im/2020-03-04-%E3%80%8ANetty+JavaFx%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%BF%E6%A1%8C%E9%9D%A2%E7%89%88%E5%BE%AE%E4%BF%A1%E8%81%8A%E5%A4%A9%E3%80%8B.html)
 - 介绍：🎭 本项目是作者小傅哥使用JavaFx、Netty4.x、SpringBoot、Mysql等技术栈和偏向于DDD领域驱动设计方式，搭建的仿桌面版微信实现通信核心功能。课程文章已发布到GitChat专栏，欢迎购买。
 
-![](https://bugstack.cn/assets/images/2020/project.jpg)
-
-![](https://bugstack.cn/assets/images/2020/ui-01.png)
+<div align="center">
+    <img src="https://bugstack.cn/assets/images/2020/project.jpg?raw=true" width="900px">
+    <img src="https://bugstack.cn/assets/images/2020/ui-01.png?raw=true" width="900px">
+</div>
 
 **第一章节**：**UI开发**。使用`JavaFx`与`Maven`搭建UI桌面工程，逐步讲解登录框体、聊天框体、对话框、好友栏等各项UI展示及操作事件。从而在这一章节中让Java 程序员学会开发桌面版应用。
 
@@ -199,6 +225,7 @@ title: 目录
 - 重学Java设计模式：[https://download.csdn.net/download/Yao__Shun__Yu/19265731](https://download.csdn.net/download/Yao__Shun__Yu/19265731)
 - 手撸 Spring：[https://download.csdn.net/download/Yao__Shun__Yu/21009038](https://download.csdn.net/download/Yao__Shun__Yu/21009038)
 - 字节码编程：[https://download.csdn.net/download/Yao__Shun__Yu/12505051](https://download.csdn.net/download/Yao__Shun__Yu/12505051)
+- IDEA Plugin 开发手册：[https://download.csdn.net/download/Yao__Shun__Yu/77484299](https://download.csdn.net/download/Yao__Shun__Yu/77484299)
 
 ## 关于
 

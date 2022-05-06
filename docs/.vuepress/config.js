@@ -209,6 +209,10 @@ module.exports = {
                                 link: '/md/spring/develop-spring/2021-05-16-第1章：开篇介绍，手写Spring能给你带来什么？.md'
                             },
                             {
+                                text: 'Mybatis 手撸专栏',
+                                link: '/md/spring/develop-mybatis/2022-03-20-第1章：开篇介绍，手写Mybatis能给你带来什么？.md'
+                            },
+                            {
                                 text: 'Spring Cloud',
                                 link: '/md/spring/spring-cloud/2019-10-31-Spring Cloud零《总有一偏概述告诉你SpringCloud是什么》.md'
                             },
@@ -383,6 +387,10 @@ module.exports = {
                                     {
                                         text: '字节码编程',
                                         link: '/md/knowledge/pdf/2020-05-17-小傅哥出书了《字节码编程》免费拿！.md'
+                                    },
+                                    {
+                                        text: 'IDEA Plugin 开发手册',
+                                        link: '/md/knowledge/pdf/2022-01-23-IDEA Plugin 开发手册.md'
                                     }
                                 ]
                             }
@@ -397,6 +405,10 @@ module.exports = {
                         ]
                     },
                     {
+                        text: 'B站',
+                        link: 'https://space.bilibili.com/15637440'
+                    },
+                    {
                         text: 'Github',
                         link: 'https://github.com/fuzhengwei/CodeGuide'
                     }
@@ -407,13 +419,15 @@ module.exports = {
                     "/md/java/develop-jvm/": genBarJavaDevelopJvm(),
                     "/md/java/core/": genBarJavaCore(),
                     "/md/spring/develop-spring/": genBarSpringDevelopSpring(),
+                    "/md/spring/develop-mybatis/": genBarSpringDevelopMybatis(),
                     "/md/spring/source-code/": genBarSpringSourceCode(),
                     "/md/spring/spring-cloud/": genBarSpringSpringCloud(),
                     "/md/develop/design-pattern/": genBarDevelopDesignPattern(),
                     "/md/develop/framework/": genBarDevelopFramework(),
                     "/md/develop/standard/": genBarDevelopStandard(),
                     "/md/devops/": genBarDevOPS(),
-                    "/md/assembly/": genBarAssembly(),
+                    "/md/assembly/middleware/": genBarAssembly(),
+                    "/md/assembly/idea-plugin/": genBarAssemblyIDEAPlugin(),
                     "/md/netty/": genBarNetty(),
                     "/md/knowledge/": genBarKnowledge(),
                     "/md/bytecode/asm-document/": genBarBytecode(),
@@ -569,6 +583,25 @@ function genBarOther() {
     ]
 }
 
+// spring-develop-mybatis
+function genBarSpringDevelopMybatis() {
+    return [
+        {
+            title: "《手撸 Mybatis》",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-03-20-第1章：开篇介绍，手写Mybatis能给你带来什么？.md",
+                "2022-03-27-第2章：创建简单的映射器代理工厂.md",
+                "2022-04-04-第3章：实现映射器的注册和使用.md",
+                "2022-04-09-第4章：XML的解析和注册使用.md",
+                "2022-04-17-第5章：数据源的解析、创建和使用.md",
+                "2022-04-23-第6章：数据源池化技术实现.md",
+            ]
+        }
+    ]
+}
+
 // spring-develop-spring
 function genBarSpringDevelopSpring() {
     return [
@@ -659,6 +692,14 @@ function genBarSpringSourceCode() {
 function genBarDevelopDesignPattern() {
     return [
         {
+            title: "介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-03-12-重学Java设计模式B站视频.md",
+            ]
+        },
+        {
             title: "创建型模式",
             collapsable: false,
             sidebarDepth: 0,
@@ -723,6 +764,7 @@ function genBarDevOPS() {
                 "2021-06-04-【经验分享】码农使用云服务学习，部环境、开端口、配域名、弄SSL、搭博客！.md",
                 "2021-11-01-迁移vuepress博客踩坑经历.md",
                 "2021-11-07-关于怎么使用 webhooks 自动部署博客，详细教程文档！.md",
+                "2022-03-04-教小白使用 docsify，搭建一个贼简单的所见即所得博客！.md",
             ]
         }
     ]
@@ -761,7 +803,9 @@ function genBarDevelopFramework() {
                 "scheme/2021-03-04-笔记整理：技术架构涵盖内容和演变过程总结.md",
                 "scheme/2021-03-14-不重复造轮子只是骗小孩子的，教你手撸 SpringBoot 脚手架！.md",
                 "scheme/2021-03-24-刚火了的中台转头就拆，一大波公司放不下又拿不起来！.md",
-                "scheme/2021-07-19-调研字节码插桩技术，用于系统监控设计和实现.md"
+                "scheme/2021-07-19-调研字节码插桩技术，用于系统监控设计和实现.md",
+                "scheme/2022-02-14-基于库表分段扫描和数据Redis预热，优化分布式延迟任务触达时效性.md",
+                "scheme/2022-02-21-怎么说服领导，能让我用DDD架构.md",
             ]
         }
     ]
@@ -781,7 +825,8 @@ function genBarDevelopStandard() {
                 "2021-01-10-握草，这些研发事故30我都干过！.md",
                 "2021-09-15-还重构？就你那代码只能铲了重写！.md",
                 "2021-09-27-p3c 插件，是怎么检查出你那屎山的代码？.md",
-                "2021-10-10-12种 vo2dto 方法，就 BeanUtils.copyProperties 压测最拉胯.md"
+                "2021-10-10-12种 vo2dto 方法，就 BeanUtils.copyProperties 压测最拉胯.md",
+                "2022-03-06-ApiPost.md",
             ]
         }
     ]
@@ -795,29 +840,59 @@ function genBarAssembly() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "middleware/2019-12-02-SpringBoot服务治理中间件之统一白名单验证.md",
-                "middleware/2019-12-07-发布Jar包到Maven中央仓库，为开发开源中间件做准备.md",
-                "middleware/2019-12-08-开发基于SpringBoot的分布式任务中间件DcsSchedule.md",
-                "middleware/2021-08-19-基于Hash散列，数据库路由组件设计.md"
-            ]
-        },
-        {
-            title: "IDEA-Plugin",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "idea-plugin/2021-08-27-技术调研，IDEA 插件怎么开发？.md",
-                "idea-plugin/2021-08-29-技术实践，IDEA 插件怎么发布？.md",
-                "idea-plugin/2021-10-18-《IntelliJ IDEA 插件开发》第一节：两种方式创建插件工程.md",
-                "idea-plugin/2021-11-03-《IntelliJ IDEA 插件开发》第二节：配置窗体和侧边栏窗体的使用.md",
-                "idea-plugin/2021-11-18-《IntelliJ IDEA 插件开发》第三节：开发工具栏和Tab页，展示股票行情和K线.md",
-                "idea-plugin/2021-11-24-《IntelliJ IDEA 插件开发》第四节：扩展创建工程向导步骤，开发DDD脚手架.md",
-                "idea-plugin/2021-12-08-《IntelliJ IDEA 插件开发》第五节：IDEA工程右键菜单，自动生成ORM代码.md",
-                "idea-plugin/2021-12-14-《IntelliJ IDEA 插件开发》第六节：以织入代码的方式，自动处理vo2dto.md",
-                "idea-plugin/2021-12-22-《IntelliJ IDEA 插件开发》第7节：通过Inspection机制，为静态代码安全审查.md",
+                "2019-12-02-SpringBoot服务治理中间件之统一白名单验证.md",
+                "2019-12-07-发布Jar包到Maven中央仓库，为开发开源中间件做准备.md",
+                "2019-12-08-开发基于SpringBoot的分布式任务中间件DcsSchedule.md",
+                "2021-08-19-基于Hash散列，数据库路由组件设计.md"
             ]
         }
     ]
+}
+
+// Assembly idea-plugin
+function genBarAssemblyIDEAPlugin() {
+    return [
+        {
+            title: "第1章：开发入门",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2021-08-27-技术调研，IDEA 插件怎么开发？.md",
+                "2021-08-29-技术实践，IDEA 插件怎么发布？.md",
+            ]
+        },
+        {
+            title: "第2章：基础功能",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2021-10-18-《IntelliJ IDEA 插件开发》第一节：两种方式创建插件工程.md",
+                "2021-11-03-《IntelliJ IDEA 插件开发》第二节：配置窗体和侧边栏窗体的使用.md",
+                "2021-11-18-《IntelliJ IDEA 插件开发》第三节：开发工具栏和Tab页，展示股票行情和K线.md",
+            ]
+        },
+        {
+            title: "第3章：基建设计",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2021-11-24-《IntelliJ IDEA 插件开发》第四节：扩展创建工程向导步骤，开发DDD脚手架.md",
+                "2021-12-08-《IntelliJ IDEA 插件开发》第五节：IDEA工程右键菜单，自动生成ORM代码.md",
+                "2021-12-14-《IntelliJ IDEA 插件开发》第六节：以织入代码的方式，自动处理vo2dto.md",
+            ]
+        },
+        {
+            title: "第4章：辅助工具",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2021-12-22-《IntelliJ IDEA 插件开发》第7节：通过Inspection机制，为静态代码安全审查.md",
+                "2022-01-17-《IntelliJ IDEA 插件开发》第8节：在插件中引入探针，基于字节码插桩获取执行SQL.md",
+                "2022-01-23-《IntelliJ IDEA 插件开发》第10节：基于字节码插桩采集数据，实现代码交付质量自动分析.md",
+                "2022-01-22-《IntelliJ IDEA 插件开发》第9节：加载文件生成链表单词树，输入属性时英文校准提醒.md",
+            ]
+        }
+    ];
 }
 
 // netty 4.x
@@ -919,6 +994,7 @@ function genBarKnowledge() {
                 "pdf/2020-07-12-重学 Java 设计模式.md",
                 "pdf/2021-01-26-Java面经手册PDF下载.md",
                 "pdf/2021-08-12-《手撸 Spring》PDF，全书260页6.5万字，完稿&发版！.md",
+                "pdf/2022-01-23-IDEA Plugin 开发手册.md",
             ]
         }
     ]
@@ -1304,6 +1380,8 @@ function getBarProjectLottery() {
                 "Part-5/第04节：部署环境 Mysql.md",
                 "Part-5/第05节：部署环境 xxl-job.md",
                 "Part-5/第06节：部署环境 nacos.md",
+                "Part-5/第07节：部署环境 Elasticsearch、Kibana.md",
+                "Part-5/第08节：部署环境 canal.md",
             ]
         }
     ]
@@ -1333,6 +1411,7 @@ function genBarAbout() {
                 "me/2021-09-05-我在CSDN赚了1.2万.md",
                 "me/2021-10-24-炸！1024，小傅哥的博客升级啦，文章开源、支持PR，冲哇！.md",
                 "me/2021-11-14-CodeGuide开源仓库.md",
+                "me/2022-01-27-2021年，小傅哥の年终总结！.md",
             ]
         },
         {
@@ -1349,7 +1428,8 @@ function genBarAbout() {
                 "study/2020-12-20-工作3年，看啥资料能月薪30K？.md",
                 "study/2021-01-17-数学，离一个程序员有多近？.md",
                 "study/2021-05-09-大学毕业要写多少行代码，才能不用花钱培训就找到一份开发工作？.md",
-                "study/2021-09-09-2021版，开发者学习路线图分享.md"
+                "study/2021-09-09-2021版，开发者学习路线图分享.md",
+                "study/2022-02-07-你上车，我就把你带成卷王！.md"
             ]
         },
         {
