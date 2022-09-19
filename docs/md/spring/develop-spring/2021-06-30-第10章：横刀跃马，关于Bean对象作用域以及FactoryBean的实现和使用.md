@@ -158,6 +158,13 @@ public class BeanDefinition {
 
     private boolean prototype = false;
     
+    //在xml注册Bean定义时，通过scope字段来判断是单例还是原型
+    public void setScope(String scope) {
+        this.scope = scope;
+        this.singleton = SCOPE_SINGLETON.equals(scope);
+        this.prototype = SCOPE_PROTOTYPE.equals(scope);
+    }
+    
     // ...get/set
 }
 ```
@@ -552,3 +559,9 @@ Process finished with exit code 0
 - 在 Spring 框架整个开发的过程中，前期的各个功能接口类扩展的像膨胀了似的，但到后期在完善功能时，就没有那么难了，反而深入理解后会觉得功能的补充，都比较简单。只需要再所遇领域范围内进行扩展相应的服务实现即可。
 - 当你仔细阅读完关于 FactoryBean 的实现以及测试过程的使用，以后再需要使用 FactoryBean 开发相应的组件时候，一定会非常清楚它是如何创建自己的复杂 Bean 对象以及在什么时候初始化和调用的。遇到问题也可以快速的排查、定位和解决。
 - 如果你在学习的过程中感觉这些类、接口、实现、继承，穿梭的很复杂，一时半会脑子还反应不过来。那么你最好的方式是动手去画画这些类关系图，梳理下实现的结构，看看每个类在干什么。*看只能是知道，动手才能学会！*
+
+## 七、优秀作业
+
+- [单例判断以及通过用户创建的FactoryBean实现复杂Bean对象的创建 @Ray](https://t.zsxq.com/057IyZj2r)
+- [Bean 对象作用域范围全貌梳理 @W](https://t.zsxq.com/05eiIMFMj)
+- [另开一中额外的prototype类型的bean，并进行特殊处理 @Chin](https://t.zsxq.com/05MFubAA6)

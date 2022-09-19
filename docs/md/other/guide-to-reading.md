@@ -24,7 +24,8 @@ title: 目录
 - 加入星球：[码农会锁](https://t.zsxq.com/jAi2nUf) - 你可以获得本站所有学习内容的**指导**和**帮助**，还可以学习实战项目！`☕️一顿饭钱的支持，突破技术瓶颈` **小妙招**：关注公众号：[bugstack虫洞栈](https://bugstack.cn/images/personal/qrcode.png) 回复：`星球` 可以获取优惠券
 
 <div align="center">
-    <img src="https://bugstack.cn/assets/images/xingqiu-220223.png?raw=true" width="300px">
+    <img src="https://bugstack.cn/images/article/about/about-220605-06.png?raw=true" width="700px">
+    <div style="font-size: 12px;"><a href="https://t.zsxq.com/Ja27ujq">星球介绍：码农会锁 - 实战项目「DDD+RPC分布式抽奖系统」、专属小册、问题解答、简历指导、架构图稿、视频课程</a></div>
 </div>
 
 ## 一、本站知识阅览
@@ -35,10 +36,10 @@ title: 目录
 
 而这几大块内容也是每一个较贵的 Java 程序员应该掌握的内容，可以包括：
 
-- **Java&Spring**：以讲解Java、Spring核心知识为基础，用数学逻辑思维分析关于Java、Spring、Mybatis、Dubbo等核心源码技术内容。其中如[《Java 面经手册》](https://bugstack.cn/interview/2021/01/26/Java面经手册PDF下载.html)是一本以面试题为入口讲解 Java 核心内容的技术书籍，书中内容极力的向你证实代码是对数学逻辑的具体实现。包括正在编写的[《手撸 Spring》](https://github.com/fuzhengwei/small-spring)通过手写简化版 Spring 框架，了解 Spring 核心原理。在手写的过程中会简化 Spring 源码，摘取整体框架中的核心逻辑，简化代码实现过程，保留核心功能，例如：IOC、AOP、Bean生命周期、上下文、作用域、资源处理等内容实现。这些都程序员学习技术成长过程中非常重要的知识，如果能深入学习那么对以后的个人成长帮助非常大。
-- **算法逻辑和数据结构**：这部分内容主要以Java源码为入手，讲解其中的数学知识，包括：扰动函数、负载因子、拉链寻址、开放寻址、斐波那契（Fibonacci）散列法还有黄金分割点的使用等等，这也正是[《Java 面经手册》](https://bugstack.cn/interview/2021/01/26/Java面经手册PDF下载.html)的核心内容所在。
-- **面向对象**：[《Java 设计模式》](https://u.jd.com/qPnzanP)的知识是在Java基础铺平，数据结构、算法逻辑有了一定的了解后，在深入学习和使用的技术。同样是一个需求在学过设计模式后，也阅读了不少别人优秀的代码，那么在他实现需求的时候，会拆分出很多的接口和接口的继承、抽象类的职责隔离实现、具体业务模块的分层、功能服务组件的细化、具体实现过程中对设计模式的运用等等。这样的代码实现后会非常具有易扩展和可维护的特点，否则一篇的ifelse不是坑自己就是坑下一个人。
-- **中间件**：可能很大一部分研发并不会接触到中间件，也不太可能有人告诉你可以使用中间件的方式解决一些实际遇到的问题。因为大部分时候你都会认为中间件只是公司专门部门的人写的，或者是技术大牛搞的，总之与你没关系。但其实代码知识对数学逻辑的具体实现，业务开发有业务开发的方式，[《Spring 中间件和开发》](https://bugstack.cn/itstack-ark-middleware/2021/03/31/SpringBoot-中间件设计和开发-专栏小册上线啦.html)也只是对Spring的关于容器中一些特定接口和类的使用，具体的还是普通的逻辑代码，比如暴露服务、采集日志、监控系统等。但如果你能早些学到这样技术的核心思想，那么对于升值、加薪、跳槽，都是非常有帮助的。
+- **Java&Spring**：以讲解Java、Spring核心知识为基础，用数学逻辑思维分析关于Java、Spring、Mybatis、Dubbo等核心源码技术内容。其中如[《Java 面经手册》](https://bugstack.cn/md/project/pdf/2021-01-26-Java%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8CPDF%E4%B8%8B%E8%BD%BD.html)是一本以面试题为入口讲解 Java 核心内容的技术书籍，书中内容极力的向你证实代码是对数学逻辑的具体实现。包括正在编写的[《手撸 Spring》](https://github.com/fuzhengwei/small-spring)通过手写简化版 Spring 框架，了解 Spring 核心原理。在手写的过程中会简化 Spring 源码，摘取整体框架中的核心逻辑，简化代码实现过程，保留核心功能，例如：IOC、AOP、Bean生命周期、上下文、作用域、资源处理等内容实现。这些都程序员学习技术成长过程中非常重要的知识，如果能深入学习那么对以后的个人成长帮助非常大。
+- **算法逻辑和数据结构**：这部分内容主要以Java源码为入手，讲解其中的数学知识，包括：扰动函数、负载因子、拉链寻址、开放寻址、斐波那契（Fibonacci）散列法还有黄金分割点的使用等等，这也正是[《Java 面经手册》](https://bugstack.cn/md/project/pdf/2021-01-26-Java%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8CPDF%E4%B8%8B%E8%BD%BD.html)的核心内容所在。
+- **面向对象**：[《Java 设计模式》](https://item.jd.com/13218336.html)的知识是在Java基础铺平，数据结构、算法逻辑有了一定的了解后，在深入学习和使用的技术。同样是一个需求在学过设计模式后，也阅读了不少别人优秀的代码，那么在他实现需求的时候，会拆分出很多的接口和接口的继承、抽象类的职责隔离实现、具体业务模块的分层、功能服务组件的细化、具体实现过程中对设计模式的运用等等。这样的代码实现后会非常具有易扩展和可维护的特点，否则一篇的ifelse不是坑自己就是坑下一个人。
+- **中间件**：可能很大一部分研发并不会接触到中间件，也不太可能有人告诉你可以使用中间件的方式解决一些实际遇到的问题。因为大部分时候你都会认为中间件只是公司专门部门的人写的，或者是技术大牛搞的，总之与你没关系。但其实代码知识对数学逻辑的具体实现，业务开发有业务开发的方式，[《Spring 中间件和开发》](https://bugstack.cn/md/project/springboot-middleware/2021-03-31-%E3%80%8ASpringBoot%20%E4%B8%AD%E9%97%B4%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%92%8C%E5%BC%80%E5%8F%91%E3%80%8B%E4%B8%93%E6%A0%8F%E5%B0%8F%E5%86%8C%E4%B8%8A%E7%BA%BF%E5%95%A6%EF%BC%81.html)也只是对Spring的关于容器中一些特定接口和类的使用，具体的还是普通的逻辑代码，比如暴露服务、采集日志、监控系统等。但如果你能早些学到这样技术的核心思想，那么对于升值、加薪、跳槽，都是非常有帮助的。
 - **通信专题**：其实Netty是一项非常重要的技术，比如在RPC服务实现中的Dubbo、或者MQ、以及很多时候的通信里都是能用到的技术。就连小傅哥的第一次面试大厂也是靠着对Netty的学习，刷进来的！所以小傅哥编写了很多Netty从基础入门讲解到核心原理，告诉你如何处理半包、粘包，怎样定义消息协议，并开发了一个基于Netty的仿微信聊天项目，这些技术内容你都可以在我的博客学习到学习到。
 - **字节码编程**：这项技术可能大多数研发，哪怕35岁的，可能也不一定接触到。但这样的技术你却基本都用过，比如你的IDEA是购买的吗，你怎么给让它能用的！你用过一些非入侵的全链路监控系统的，你通过字节码插桩搞过一些事情吗，那你用过Cglib吧，它的底层就是通过ASM字节码框架对字节码进行的一些列操作。
 - **实战项目**：以实战项目的方式学习互联网大厂开发中应用到的技术，通过这样的实践方式把一些学习的技术应用起来，而不是单单的去背资料，但最终不知道该如何把这些技术内容综合起来使用。所以这里小傅哥以实战项目为主，推出：[Lottery 抽奖系统 - 基于领域驱动设计的四层架构实践](https://bugstack.cn/md/project/lottery/introduce/Lottery%E6%8A%BD%E5%A5%96%E7%B3%BB%E7%BB%9F.html)
@@ -56,7 +57,12 @@ title: 目录
 - SpringBoot 中间件设计和开发：[https://juejin.cn/book/6940996508632219689](https://juejin.cn/book/6940996508632219689)
 - 🔥Lottery 抽奖系统 - DDD 分布式实践：[https://t.zsxq.com/jAi2nUf](https://t.zsxq.com/jAi2nUf)
 
-## 三、Java
+## 三、算法
+
+- 地址：[Java 数据结构和算法](https://bugstack.cn/md/algorithm/data-structures/2022-07-22-linked-list.html)
+- 介绍：以Java源码为基础，结合使用场景，学习数据结构和算法
+
+## 四、Java
 
 ### 1. Java 面经手册
 
@@ -65,7 +71,7 @@ title: 目录
 
 ![](https://bugstack.cn/assets/images/2020/interview/interview-pdf-2.png)
 
-[《Java 面经手册》](https://bugstack.cn/md/knowledge/pdf/2021-01-26-Java面经手册PDF下载.html#) 是一本以面试题为入口讲解 Java 核心技术的 PDF 书籍，书中内容也极力的向你证实`代码是对数学逻辑的具体实现`。*为什么这么说？* 当你仔细阅读书籍时，会发现这里有很多数学知识，包括：扰动函数、负载因子、拉链寻址、开放寻址、斐波那契（Fibonacci）散列法还有黄金分割点的使用等等。
+[《Java 面经手册》](https://bugstack.cn/md/project/pdf/2021-01-26-Java%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8CPDF%E4%B8%8B%E8%BD%BD.html) 是一本以面试题为入口讲解 Java 核心技术的 PDF 书籍，书中内容也极力的向你证实`代码是对数学逻辑的具体实现`。*为什么这么说？* 当你仔细阅读书籍时，会发现这里有很多数学知识，包括：扰动函数、负载因子、拉链寻址、开放寻址、斐波那契（Fibonacci）散列法还有黄金分割点的使用等等。
 
 编码只是在确定了研发设计后的具体实现，而设计的部分包括：数据结构、算法逻辑以及设计模式等，而这部分数据结构和算法逻辑在 Java 的核心 API 中体现的淋漓尽致。那么，也就解释了为什么这些内容成为了热点面试题，虽然可能我们都会觉得这样的面试像是造火箭。
 
@@ -79,7 +85,7 @@ title: 目录
 - 地址：[基础技术](https://bugstack.cn/md/java/core/2020-01-06-%5B%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%5D%E5%92%8B%E5%98%9E%EF%BC%9F%E4%BD%A0%E7%9A%84IDEA%E8%BF%87%E6%9C%9F%E4%BA%86%E5%90%A7%EF%BC%81%E5%8A%A0%E4%B8%AAJar%E5%8C%85%E5%B0%B1%E7%A0%B4%E8%A7%A3%E4%BA%86%EF%BC%8C%E4%B8%BA%E4%BB%80%E4%B9%88%EF%BC%9F.html)
 - 介绍：讲解 JDK 新特性、JDK 和 CGLIB 反射、Byte 字节、技术扩展、常忽略的技术问题，帮研发同学更好的拉伸自己的技术栈学习。
 
-## 四、Spring
+## 五、Spring
 
 ### 1. Spring 手撸专栏
 
@@ -109,7 +115,7 @@ title: 目录
 - 地址：[源码分析](https://bugstack.cn/md/spring/source-code/2019-12-25-%5B%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%5DMybatis%E6%8E%A5%E5%8F%A3%E6%B2%A1%E6%9C%89%E5%AE%9E%E7%8E%B0%E7%B1%BB%E4%B8%BA%E4%BB%80%E4%B9%88%E5%8F%AF%E4%BB%A5%E6%89%A7%E8%A1%8C%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5.html)
 - 介绍：拆解、分析、实践的方式进行源码学习，包括对 Mybatis 的分析和手写，这部分内容涵盖的非常广泛，可以让你非常清楚一个 ORM 框架是如何开发的以及怎么结合到 Spring 中，同时这部分内容还包括了 Quartz 定时任务全流程的分析，可以帮助你更好的理解任务的分层处理。
 
-## 五、面向对象
+## 六、面向对象
 
 ### 1. 重学Java设计模式
 
@@ -125,6 +131,7 @@ title: 目录
 | 4    | **原型**     | ![img](https://bugstack.cn/assets/images/2020/design/14.png) | 上机考试多套试，每人题目和答案乱序排列场景           | 用原型实例指定创建对象的种类，并且通过拷贝这些原型创建新的对象。 |
 | 5    | **单例**     | ![img](https://bugstack.cn/assets/images/2020/design/15.png) | 7种单例模式案例，Effective Java 作者推荐枚举单例模式 | 保证一个类仅有一个实例，并提供一个访问它的全局访问点。       |
 
+- 图片引用：[https://refactoringguru.cn](https://refactoringguru.cn)
 - 出版图书：[https://mp.weixin.qq.com/s/g9LYQEqzOeiYOpfG_5XFYg](https://mp.weixin.qq.com/s/g9LYQEqzOeiYOpfG_5XFYg)
 
 ### 2. DDD 专题
@@ -142,7 +149,7 @@ title: 目录
 - 地址：[架构设计](https://bugstack.cn/md/develop/framework/scheme/2021-02-04-%E5%9F%BA%E4%BA%8EIDEA%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91%E5%92%8C%E5%AD%97%E8%8A%82%E7%A0%81%E6%8F%92%E6%A1%A9%E6%8A%80%E6%9C%AF%EF%BC%8C%E5%AE%9E%E7%8E%B0%E7%A0%94%E5%8F%91%E4%BA%A4%E4%BB%98%E8%B4%A8%E9%87%8F%E8%87%AA%E5%8A%A8%E5%88%86%E6%9E%90.html)
 - 介绍：讲解互联网大厂中一些场景的复杂场景，该如何设计和落地，包括：IDEA 插件、低代码、脚手架、DDD、中台、非入侵的全链路监控、字节码插庒等场景问题。
 
-## 六、中间件
+## 七、中间件
 
 ### 1. Spring Boot 中间件开发
 
@@ -162,17 +169,22 @@ title: 目录
 - **API**：在 IDEA 插件开发中，一般都是围绕工程进行的，那么基本要从通过 IDEA 插件 JDK 开发能力中获取到工程信息、类信息、文件信息等。
 - **外部功能**：这一个是用于把插件能力与外部系统结合，比如你是需要把拿到的接口上传到服务器，还是从远程下载文件等等。
 
-## 七、Netty 4.x
+### 3. API网关：中间件设计和实践
+
+- 地址：[API网关：中间件设计和实践](https://bugstack.cn/md/assembly/api-gateway/2022-08-12-%E5%BC%80%E7%AF%87%EF%BC%9A%E5%A6%82%E6%9E%9C%E8%AE%A9%E6%88%91%E8%AE%BE%E8%AE%A1%E4%B8%80%E5%A5%97%EF%BC%8CTPS%E7%99%BE%E4%B8%87%E7%BA%A7API%E7%BD%91%E5%85%B3.html)
+- 介绍：API网关，是所有互联网大厂都有的一个核心服务，承接着来自用户的滴滴打车、美团外卖、京东购物、微信支付，更是大促期间千万级访问量的核心系统。
+
+## 八、Netty 4.x
 
 - 地址：[Netty 4.x](https://bugstack.cn/md/netty/base/2019-07-30-netty%E6%A1%88%E4%BE%8B%EF%BC%8Cnetty4.1%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E7%AF%87%E9%9B%B6%E3%80%8A%E5%88%9D%E5%85%A5JavaIO%E4%B9%8B%E9%97%A8BIO%E3%80%81NIO%E3%80%81AIO%E5%AE%9E%E6%88%98%E7%BB%83%E4%B9%A0%E3%80%8B.html)
 - 介绍：跟着案例学Netty，Netty4.x案例从简单入门到应用实战，全篇37章节优秀案例+实战源码[基础篇(13)、中级篇(13)、高级篇(3章+)、源码分析篇]，以上章节全部完成并不断持续更新中。
 
-## 八、字节码编程(ASM、Javassist、Byte-Buddy)
+## 九、字节码编程(ASM、Javassist、Byte-Buddy)
 
 - 地址：[字节码编程(ASM、Javassist、Byte-Buddy)](https://bugstack.cn/md/bytecode/asm/2020-03-25-%5BASM%E5%AD%97%E8%8A%82%E7%A0%81%E7%BC%96%E7%A8%8B%5D%E5%A6%82%E6%9E%9C%E4%BD%A0%E5%8F%AA%E5%86%99CRUD%EF%BC%8C%E9%82%A3%E8%BF%99%E7%A7%8D%E6%8A%80%E6%9C%AF%E4%BD%A0%E6%B0%B8%E8%BF%9C%E7%A2%B0%E4%B8%8D%E5%88%B0.html)
 - 介绍：但全书共计107页，11万7千字，20个章节涵盖三个字节码框架和JavaAgent使用并附带整套案例源码！讲道理，市面上以及网络搜索中都基本很少有成体系的关于字节码编程的知识，这主要由于大部分开发人员其实很少接触这部分内容，包括；ASM、Javassist、Byte-buddy以及JavaAgent，没有很大的市场也就没有很多的资料。但大家其实已经从其他的框架或者中间件中使用到，就像你用到的；Cglib、混沌工程、非入侵的全链路监控以及你是否使用过jetbrains-agent.jar做了某项实验？
 
-## 九、实战项目
+## 十、实战项目
 
 ### 1. IM Netty 仿PC端微信
 
